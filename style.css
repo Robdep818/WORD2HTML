@@ -17,12 +17,13 @@
             box-sizing: border-box;
         }
 
-        *body {
+        body {
             background-color: lightyellow;
-            background-image: url("/imgs/tech2.png");
-            background-size:contain;
+            background-image: url("tech2.png");
+            background-size: 40% 150%;
             background-repeat: no-repeat;
-            background-position: 100% 100%;
+            /*background-position: 100% 100%;*/
+            background-position: right;
             background-attachment: fixed;
             color: gray; 
             font-family: "Calibri", sans-serif; 
@@ -31,6 +32,14 @@
             margin-top: 100px; /*margin-top: 5%;*/ 
             margin-bottom: 30%; 
         }
+
+        /*body {
+            background-image: url("tech2.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;  
+            background-size: 40% 150%;
+            background-position: right;
+          } */
 
         header{
             padding: 2% 1% 2%;
